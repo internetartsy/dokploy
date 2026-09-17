@@ -50,7 +50,7 @@ feat: add new feature
 
 ## Setup
 
-Before you start, please make the clone based on the `canary` branch, since the `main` branch is the source of truth and should always reflect the latest stable release, also the PRs will be merged to the `canary` branch.
+Before you start, please base your clone on the `canary` branch. `canary` is the active development branch that all pull requests are merged into, while the `main` branch reflects the latest stable release.
 
 We use Node v20.16.0 and recommend this specific version. If you have nvm installed, you can run `nvm install 20.16.0 && nvm use` in the root directory.
 
@@ -153,7 +153,7 @@ curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.35.0/pack-v0.
 
 ## Pull Request
 
-- The `canary` branch is the source of truth and should always reflect the latest stable release.
+- The `canary` branch is the active development branch that all pull requests are merged into; the `main` branch reflects the latest stable release.
 - Create a new branch for each feature or bug fix.
 - Make sure to add tests for your changes.
 - Make sure to update the documentation for any changes Go to the [docs.dokploy.com](https://docs.dokploy.com) website to see the changes.
