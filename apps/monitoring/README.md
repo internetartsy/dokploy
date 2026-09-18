@@ -51,9 +51,19 @@ go run main.go
 
 ## Endpoints
 
+Every endpoint except `/health` is protected and requires a bearer token in the
+`Authorization` header. The token must match the `server.token` value from
+`METRICS_CONFIG`:
+
+```
+Authorization: Bearer <token>
+```
+
+Requests without a valid token receive a `401 Unauthorized` response.
+
 - `GET /health` - Check service health status (no authentication required)
-- `GET /metrics?limit=<number|all>` - Get server metrics (default limit: 50)
-- `GET /metrics/containers?limit=<number|all>&appName=<name>` - Get container metrics for a specific application (default limit: 50)
+- `GET /metrics?limit=<number|all>` - Get server metrics (default limit: 50, requires authentication)
+- `GET /metrics/containers?limit=<number|all>&appName=<name>` - Get container metrics for a specific application (default limit: 50, requires authentication)
 
 ## Features
 
