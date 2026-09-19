@@ -2,7 +2,7 @@
 
 Hey, thanks for your interest in contributing to Dokploy! We appreciate your help and taking your time to contribute.
 
-Before you start, please first discuss the feature/bug you want to add with the owners and comunity via github issues.
+Before you start, please first discuss the feature/bug you want to add with the owners and community via github issues.
 
 We have a few guidelines to follow when contributing to this project:
 
@@ -153,7 +153,7 @@ curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.35.0/pack-v0.
 
 ## Pull Request
 
-- The `canary` branch is the source of truth and should always reflect the latest stable release.
+- The `canary` branch is the active development branch that all pull requests are merged into (the `main` branch reflects the latest stable release).
 - Create a new branch for each feature or bug fix.
 - Make sure to add tests for your changes.
 - Make sure to update the documentation for any changes Go to the [docs.dokploy.com](https://docs.dokploy.com) website to see the changes.
