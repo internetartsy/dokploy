@@ -2,6 +2,17 @@
 
 At Dokploy, security is a top priority. We appreciate the help of security researchers and the community in identifying and reporting vulnerabilities.
 
+## Supported Versions
+
+Dokploy follows a rolling-release model: new versions are published continuously, and the recommended installation always pulls the latest image. Security updates are provided for the **latest released version** only.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+| Older   | :x:                |
+
+Before reporting a vulnerability, please make sure you are running the most recent version, as the issue may already have been fixed. See the [installation docs](https://docs.dokploy.com) for how to update.
+
 ## How to Report a Vulnerability
 
 If you have discovered a security vulnerability in Dokploy, we ask that you report it responsibly by following these guidelines:
