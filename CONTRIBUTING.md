@@ -51,7 +51,7 @@ feat: add new feature
 
 ## Setup
 
-Before you start, please make the clone based on the `canary` branch, since the `main` branch is the source of truth and should always reflect the latest stable release, also the PRs will be merged to the `canary` branch.
+Before you start, please make the clone based on the `canary` branch, since `canary` is the source of truth and the branch that all pull requests are merged into. The `main` branch reflects the latest stable release.
 
 We use Node v24.4.0 and recommend this specific version. If you have nvm installed, you can run `nvm install 24.4.0 && nvm use` in the root directory.
 
